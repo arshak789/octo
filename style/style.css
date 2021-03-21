@@ -2,14 +2,131 @@
 	margin: 0;
 	padding: 0;
 }
- 
-div{
-	height: 320px;
-	width: 320px;
-	margin: 10px;
-	outline: 2px solid black;
-	border: 3px solid #fff;
+body{
+	height: 100vh;
+	width: 100%;
 	background-color: lightblue;
-
 }
 
+div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+
+.holder{
+    position:relative;   
+    width:500px;
+    height:300px;
+    background-image:url(https://www.momondo.ru/discover/wp-content/uploads/sites/296/2018/08/low-res-guide-to-Armenia-feature-image.jpg) ;
+    background-size:cover;
+    background-position: center;
+	margin:top;
+	border: 2px solid black;
+    
+
+}
+.block {
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:rgba(255,255,255, 0.7);
+    padding:5px;
+    display:none;
+    text-align: center;
+}
+.holder:hover .block{
+    display:block;
+}
+
+.story{
+	position: relative;
+	width: 500px;
+	height: 300px;
+	background-image: url(https://oneworldtour.am/uploads/posts/2020-01/1578163469_1578163434.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: top;
+	border: 2px solid black;
+}
+
+.history{
+	position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:rgba(255,255,255, 0.7);
+    padding:5px;
+    display:none;
+    text-align: center;
+}
+
+.story:hover .history{
+	display: block;
+}
+
+.food{
+	position: relative;
+	width: 500px;
+	height: 300px;
+	background-image: url(https://otdyhateli.com/wp-content/uploads/2020/01/armyanskaya-kuhnya-1024x683.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: top;
+	border: 2px solid black;
+}
+.bbq{
+	position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:rgba(255,255,255, 0.7);
+    padding:5px;
+    display:none;
+    text-align: center;
+}
+.food:hover .bbq{
+	display: block;
+	cursor: pointer;
+}
+.water{
+	position: relative;
+	width: 500px;
+	height: 300px;
+	background-image: url(https://www.gardmantour.com/f/5aedb19cd1631fa973a17a63/0_7e553_3b565a49_XXL.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: top;
+	border: 2px solid black;
+}
+.jur{
+	position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:rgba(255,255,255, 0.7);
+    padding:5px;
+    display:none;
+    text-align: center;
+}
+.water:hover .jur{
+	display: block;
+	cursor: pointer;
+}
+ #footer{
+ 	position:relative; /*  положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #39b54a; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+    margin-top: 10px;
+    text-align: end;
+ }
