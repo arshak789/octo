@@ -1,0 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ 
+div{
+	height: 320px;
+	width: 320px;
+	margin: 10px;
+	outline: 2px solid black;
+	border: 3px solid #fff;
+	background-color: lightblue;
+
+}
+
